@@ -74,7 +74,7 @@ const NavigationMenuMobile = ({ open, close }) => {
                 </Link>
               </motion.div>
             ))}
-            <div className={clsx(
+            {/* <div className={clsx(
               open 
               ? 'flex'
               : 'hidden', 
@@ -85,7 +85,7 @@ const NavigationMenuMobile = ({ open, close }) => {
                 className="hover:!bg-[#EEEEEE] transition-colors duration-300 overflow-hidden !bg-transparent outline outline-1 outline-[#EEEEEE] !text-[#EEEEEE] w-auto !py-2"
                 />
             </Link>
-                </div>
+                </div> */}
           </div>
         </div>
       </motion.div>
