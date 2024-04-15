@@ -7,8 +7,8 @@ import Footer from "@/common/component/element/Footer";
 const plusj = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "Marketplace",
+  description: "Marketplace Code",
 };
 
 export default function RootLayout({ children }) {
