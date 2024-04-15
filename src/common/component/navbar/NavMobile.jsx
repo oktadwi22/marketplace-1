@@ -4,8 +4,8 @@ import NavigationMenuMobile from "./NavigationMenuMobile";
 
 const NavMobile = ({ open, handleOpen, close }) => {
   return (
-    <div>
-      <label className={`cursor-pointer relative z-[999] ${open ? "open" : ""}`}>
+    <>
+      <label className={`cursor-pointer relative z-[9999] ${open ? "open" : ""}`}>
         <input
           type="checkbox"
           className="inputToogle hidden"
@@ -25,7 +25,7 @@ const NavMobile = ({ open, handleOpen, close }) => {
         </svg>
       </label>
       <NavigationMenuMobile open={open} close={close} />
-    </div>
+    </>
   );
 };
 

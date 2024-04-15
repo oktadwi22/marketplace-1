@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        <div className="lg:hidden flex  items-center">
+        <div className="lg:hidden flex  ">
           <NavMobile open={open} handleOpen={handleOpen} close={close} />
         </div>
 
