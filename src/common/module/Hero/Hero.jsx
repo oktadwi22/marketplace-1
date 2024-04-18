@@ -35,7 +35,7 @@ export default function Hero() {
           <Link href="/" className=" flex justify-end">
             <ButtonViewAll
               title="Marketplace"
-              className="hover:!bg-[#EEEEEE] !bg-[#262626] transition-colors duration-300 overflow-hidden !bg-transparent  !text-[#EEEEEE] w-auto !py-2"
+              className="hover:!bg-[#EEEEEE]  transition-colors duration-300 overflow-hidden !bg-transparent outline outline-1 outline-[#EEEEEE] !text-[#EEEEEE] w-auto !py-2"
             />
           </Link>
         </div>
