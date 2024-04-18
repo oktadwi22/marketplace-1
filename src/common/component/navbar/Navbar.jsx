@@ -41,14 +41,10 @@ const Navbar = () => {
         <div className="flex w-full z-[999] items-start justify-start">
           <Link
             href="/"
-            className="group relative w-auto flex justify-start items-center gap-2"
+            className="group relative w-auto flex justify-start items-center"
           >
-            {/* <Logo w={25} h={25} /> */}
-            <h1
-              className={` text-3xl text-[#FFFFF7] tracking-[-0.10em] font-semibold`}
-            >
-              SourceBlock
-            </h1>
+            <Logo />
+
           </Link>
         </div>
         <div className="lg:flex hidden relative justify-center gap-10 items-center w-full">
@@ -70,7 +66,7 @@ const Navbar = () => {
         <div className="lg:flex hidden  w-full items-end justify-end">
           <Link href="/" className=" flex justify-end">
             <ButtonViewAll
-              title="Contact"
+              title="Marketplace"
               className="hover:!bg-[#EEEEEE] transition-colors duration-300 overflow-hidden !bg-transparent outline outline-1 outline-[#EEEEEE] !text-[#EEEEEE] w-auto !py-2"
             />
           </Link>

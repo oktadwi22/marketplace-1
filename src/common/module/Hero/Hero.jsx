@@ -11,6 +11,8 @@ import Image from "@/common/component/element/Image";
 import SliderTechLeader from "./components/SliderTechLeader";
 import PreviewImage from "./components/PreviewImage";
 import SearchButton from "./components/SearchButton";
+import Link from "next/link";
+import ButtonViewAll from "@/common/component/element/ButtonViewAll";
 
 export default function Hero() {
   return (
@@ -29,7 +31,13 @@ export default function Hero() {
           textColor="opacity"
         />
         <div className="w-full   py-5 flex justify-center items-center">
-          <SearchButton />
+          {/* <SearchButton /> */}
+          <Link href="/" className=" flex justify-end">
+            <ButtonViewAll
+              title="Marketplace"
+              className="hover:!bg-[#EEEEEE] !bg-[#262626] transition-colors duration-300 overflow-hidden !bg-transparent  !text-[#EEEEEE] w-auto !py-2"
+            />
+          </Link>
         </div>
       </div>
       {/* <div className="w-full mt-5">

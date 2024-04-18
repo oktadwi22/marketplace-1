@@ -15,9 +15,7 @@ export default function Footer() {
         <div className="container mx-auto">
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5 flex px-6 lg:justify-center ">
-              <h1 className="text-3xl font-semibold">
-                SourceBlock
-              </h1>
+              <Logo />
             </div>
 
             <div className="mt-6 lg:mt-0 w-full ">

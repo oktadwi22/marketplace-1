@@ -9,6 +9,7 @@ const plusj = Plus_Jakarta_Sans({ subsets: ["latin"] });
 export const metadata = {
   title: "SourceBlock",
   description: "Sourceblock emerges as a dual-component technology suite that merges the robust capabilities of AI-driven pricing optimization with the security and transparency of a blockchain-based marketplace.",
+  icons: '/Aset/blocksource.png'
 };
 
 export default function RootLayout({ children }) {
