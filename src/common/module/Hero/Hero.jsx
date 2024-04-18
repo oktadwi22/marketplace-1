@@ -17,7 +17,7 @@ import ButtonViewAll from "@/common/component/element/ButtonViewAll";
 export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px]  flex flex-col justify-start  w-full mt-20 overflow-hidden ">
-      <div className="w-full  px-5 lg:px-10 z-[9] flex-col items-center flex justify-center ">
+      <div className="w-full max-lg:mt-20 px-5 lg:px-10 z-[9] flex-col items-center flex justify-center ">
         <div className="w-full md:mt-24 mt-5 ">
           <HeroText
             texts="AI-Driven Pricing Optimization and Blockchain Security"
