@@ -47,7 +47,7 @@ const Navbar = () => {
             <h1
               className={` text-3xl text-[#FFFFF7] tracking-[-0.10em] font-semibold`}
             >
-              marketplace
+              SourceBlock
             </h1>
           </Link>
         </div>

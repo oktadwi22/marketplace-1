@@ -15,7 +15,9 @@ export default function Footer() {
         <div className="container mx-auto">
           <div className="lg:flex">
             <div className="w-full -mx-6 lg:w-2/5 flex px-6 lg:justify-center ">
-              <Logo h={60} w={60} />
+              <h1 className="text-3xl font-semibold">
+                SourceBlock
+              </h1>
             </div>
 
             <div className="mt-6 lg:mt-0 w-full ">
@@ -49,7 +51,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                  <h1 className="text-[#FFFFF7] font-semibold ">Resources</h1>
+                  <h1 className="text-[#FFFFF7] font-semibold ">Feature</h1>
                   <div className="flex flex-col relative justify-start mt-1 gap-2 items-start w-full">
                     {ResourcesItem.map((item, index) => (
                       <LinkSlideHover
@@ -62,28 +64,16 @@ export default function Footer() {
                   </div>
                 </div>
 
-                <div>
-                  <h1 className="text-[#FFFFF7] font-semibold ">Browse</h1>
-                  <div className="flex flex-col relative justify-start mt-1 gap-2 items-start w-full">
-                    {NavigationItem.map((item, index) => (
-                      <LinkSlideHover
-                        className="text-sm text-[#aaaa9e]"
-                        key={index}
-                        href={item.src}
-                        title={item.title}
-                      />
-                    ))}
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
 
-          <div className="py-5 mt-20 w-full flex justify-center items-center">
+          {/* <div className="py-5 mt-20 w-full flex justify-center items-center">
             <p className="text-center text-[#FFFFF7]">
               © M Fahlevi 2024 - All rights reserved
             </p>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>

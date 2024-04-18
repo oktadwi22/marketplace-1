@@ -2,50 +2,50 @@
 
 export const ResourcesItem = [
     {
-        title: 'Blog Home',
-        src: '/blog',
+        title: 'AI-Powered Pricing System',
+        src: 'https://sourceblock.gitbook.io/sourceblock/feature/1.-ai-powered-pricing-system',
     },
     {
-        title: 'Blog Single',
-        src: '/blog',
+        title: 'Decentralized Marketplace',
+        src: 'https://sourceblock.gitbook.io/sourceblock/feature/2.-decentralized-marketplace',
+    },
+    {
+        title: 'Security Features',
+        src: 'https://sourceblock.gitbook.io/sourceblock/feature/3.-security-features',
     },
 
 ]
 
 export const InformationItem = [
     {
-        title: 'About Us',
-        src: '/about',
+        title: 'Project Objectives',
+        src: 'https://sourceblock.gitbook.io/sourceblock/about-sourceblock/project-objectives',
     },
     {
-        title: 'Contact Us',
-        src: '/contact',
+        title: 'Business Model',
+        src: 'https://sourceblock.gitbook.io/sourceblock/about-sourceblock/business-model',
     },
     {
-        title: 'FAQs',
-        src: '/faq',
+        title: 'Technology Overview',
+        src: 'https://sourceblock.gitbook.io/sourceblock/about-sourceblock/technology-overview',
     },
     {
-        title: 'Terms',
-        src: '/terms',
+        title: 'Technical Architecture',
+        src: 'https://sourceblock.gitbook.io/sourceblock/about-sourceblock/technical-architecture',
     },
 
 ]
 export const FollowusItem = [
     {
-        title: 'Dribble',
-        src: '/',
-    },
-    {
         title: 'Twitter',
         src: '/',
     },
     {
-        title: 'Instagram',
+        title: 'Telegram',
         src: '/',
     },
     {
-        title: 'Linkedin',
+        title: 'Medium',
         src: '/',
     },
 

@@ -60,7 +60,7 @@ export default function Accordian({ Content, className }) {
               initial={{ height: 0 }}
               animate={{ height: openStates[index] ? "auto" : "0px" }}
             >
-              <h1 className="text-start mt-5">{item.desc}</h1>
+              {item.desc}
             </motion.div>
           </button>
         </div>

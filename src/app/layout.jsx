@@ -7,8 +7,8 @@ import Footer from "@/common/component/element/Footer";
 const plusj = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Marketplace",
-  description: "Marketplace Code",
+  title: "SourceBlock",
+  description: "Sourceblock emerges as a dual-component technology suite that merges the robust capabilities of AI-driven pricing optimization with the security and transparency of a blockchain-based marketplace.",
 };
 
 export default function RootLayout({ children }) {
@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
           </div>
           {children}
 
-          {/* <div className="w-full flex justify-center items-center">
+          <div className="w-full flex justify-center items-center">
             <Footer />
-          </div> */}
+          </div>
         </LenisProvider>
       </body>
     </html>

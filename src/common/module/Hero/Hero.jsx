@@ -18,23 +18,23 @@ export default function Hero() {
       <div className="w-full  px-5 lg:px-10 z-[9] flex-col items-center flex justify-center ">
         <div className="w-full md:mt-24 mt-5 ">
           <HeroText
-            texts="Amplify Your Online Journey"
+            texts="AI-Driven Pricing Optimization and Blockchain Security"
             className="!justify-center lg:!w-[70%] leading-[0.95em]  lg:!py-2"
           />
         </div>
         <H1
           delay={0.2}
           className="mt-5 w-full lg:!w-[60%] justify-center !text-lg text-center"
-          title="Explore cutting-edge solutions to enrich your digital experience. Empower your brand and engage your audience with our revolutionary resources."
+          title="Sourceblock emerges as a dual-component technology suite that merges the robust capabilities of AI-driven pricing optimization with the security and transparency of a blockchain-based marketplace."
           textColor="opacity"
         />
         <div className="w-full   py-5 flex justify-center items-center">
           <SearchButton />
         </div>
       </div>
-      <div className="w-full mt-5">
+      {/* <div className="w-full mt-5">
         <PreviewImage />
-      </div>
+      </div> */}
       <div className="w-full lg:mt-10  px-5 lg:px-10">
         <SliderTechLeader />
       </div>
