@@ -124,22 +124,22 @@ export const Faqitem = [
 export const Certificate = [ 
   {
     title: '源塊科技有限公司 NNC1',
-    link: '/1.pdf'
-  },
-  {
-    title: '源塊科技有限公司 CI',
     link: '/2.pdf'
   },
   {
-    title: '源塊科技有限公司 BR',
+    title: '源塊科技有限公司 CI',
     link: '/3.pdf'
   },
   {
-    title: '源塊科技有限公司 章程英文',
+    title: '源塊科技有限公司 BR',
     link: '/4.pdf'
   },
   {
-    title: '源塊科技有限公司 章程中文',
+    title: '源塊科技有限公司 章程英文',
     link: '/5.pdf'
+  },
+  {
+    title: '源塊科技有限公司 章程中文',
+    link: '/1.pdf'
   },
 ]

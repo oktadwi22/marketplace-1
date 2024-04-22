@@ -41,7 +41,7 @@ export default function Company({ Content, className }) {
             viewport={{ once: true }}
             className="border-b-[1px] border-neutral-400 top-0 inset-0  absolute "
           ></motion.div>
-          <Link href={'/1.pdf'}>
+          <Link href={item.link}>
             <button
               onClick={() => handleClick(index)}
               className="w-full relative"
