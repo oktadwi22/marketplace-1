@@ -35,7 +35,7 @@ export default function Hero() {
           <Link href="https://app.sourceblock.software" className=" flex justify-end">
             <ButtonViewAll
               title="Marketplace"
-              className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10  transition-colors duration-300 overflow-hidden !bg-transparent outline  !text-[#EEEEEE]  "
+              className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10  transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
             />
           </Link>
         </div>
