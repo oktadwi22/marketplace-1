@@ -33,20 +33,25 @@ export const InformationItem = [
         title: 'Technical Architecture',
         src: 'https://sourceblock.gitbook.io/sourceblock/about-sourceblock/technical-architecture',
     },
+    {
+        title: 'Company Certificate',
+        src: '/certificate'
+    }
+    
 
 ]
 export const FollowusItem = [
     {
-        title: 'Twitter',
-        src: '/',
+        title: 'x',
+        src: 'https://x.com/codesourceblock',
     },
     {
         title: 'Telegram',
-        src: '/',
+        src: 'https://t.me/sourceblock',
     },
     {
         title: 'Medium',
-        src: '/',
+        src: 'https://sourceblock.medium.com',
     },
 
 ]

@@ -16,11 +16,12 @@ export const NavigationItem = [
     title: "Feature",
   },
   {
-    src: "https://sourceblock.gitbook.io/sourceblock/community-and-support/social-media-links",
-    title: "Contact",
-  },
-  {
     src: "#https://sourceblock.gitbook.io/sourceblock/faq/legal-and-financial-disclosures",
     title: "FAQ",
   },
+  {
+    src: '/certificate',
+    title:'CompanyCertificate'
+
+  }
 ];

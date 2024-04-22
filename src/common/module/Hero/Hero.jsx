@@ -32,7 +32,7 @@ export default function Hero() {
         />
         <div className="w-full   py-5 flex justify-center items-center">
           {/* <SearchButton /> */}
-          <Link href="/" className=" flex justify-end">
+          <Link href="https://app.sourceblock.software" className=" flex justify-end">
             <ButtonViewAll
               title="Marketplace"
               className="hover:!bg-[#EEEEEE]  transition-colors duration-300 overflow-hidden !bg-transparent outline outline-1 outline-[#EEEEEE] !text-[#EEEEEE] w-auto !py-2"
