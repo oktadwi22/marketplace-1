@@ -6,6 +6,7 @@ import Link from "next/link";
 import Card from "@/common/component/element/Card";
 import { AboutItem, AboutItemBenefitsUsers, AboutItemBusinesModel, AboutItemSecurityandPrivacy, AboutItemTechnicalArchitecture, AboutItemTechnologyOverview } from "@/common/constant/AboutItem";
 import SwiperCard from "./components/SwiperCard";
+import Feature from "../Feature/Feature";
 
 export default function AboutUs() {
   return (
@@ -52,7 +53,10 @@ export default function AboutUs() {
             <Card item={AboutItem} className='grid lg:grid-cols-2 w-full' />
           </div>
 
-          <div className=" mt-10 pt-10">
+    <Feature />
+
+
+          {/* <div className=" mt-10 pt-10">
           <H1
             title="Business Model"
             className="!text-3xl lg:!text-4xl !text-start font-medium"
@@ -61,9 +65,9 @@ export default function AboutUs() {
             <div className="w-full overflow-hidden">
             <SwiperCard item={AboutItemBusinesModel} />
             </div>
-          </div>
+          </div> */}
 
-          <div className=" ">
+          {/* <div className=" ">
           <H1
             title="Technology Overview"
             className="!text-3xl lg:!text-4xl !text-start font-medium"
@@ -72,9 +76,9 @@ export default function AboutUs() {
             <div className="w-full overflow-hidden">
             <SwiperCard item={AboutItemTechnologyOverview} />
             </div>
-          </div>
+          </div> */}
 
-          <div className=" ">
+          <div className="mt-5 ">
           <H1
             title="Technical Architecture"
             className="!text-3xl lg:!text-4xl !text-start font-medium"

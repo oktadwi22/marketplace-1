@@ -8,7 +8,6 @@ export default function Home() {
     <div className="flex flex-col relative overflow-hidden justify-center items-center">
     <Hero />
     <AboutUs />
-    <Feature />
     {/* <Project /> */}
     <Faq />
     </div>
