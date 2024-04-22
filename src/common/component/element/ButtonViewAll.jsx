@@ -13,7 +13,7 @@ const ButtonViewAll = ({title= '', className= ''}) => {
 
   return (
     <button
-      className={clsx(className,`btn relative group inline-flex items-center justify-center px-8 py-3 bg-neutral-900 text-white text-base  tracking-wide rounded-full `)}
+      className={clsx(className,`btn relative group inline-flex items-center justify-center px-8 py-4 bg-neutral-900 text-white text-base  tracking-wide rounded-full `)}
       onMouseMove={handleMouseMove}
     >
       <span className=" z-10 group-hover:text-neutral-900 group-hover:font-bold transition-all duration-300 ">
