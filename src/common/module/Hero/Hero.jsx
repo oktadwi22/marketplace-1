@@ -20,14 +20,19 @@ export default function Hero() {
       <div className="w-full max-lg:mt-20 px-5 lg:px-10 z-[9] flex-col items-center flex justify-center ">
         <div className="w-full md:mt-24 mt-5 ">
           <HeroText
-            texts="AI-Driven Pricing Optimization and Blockchain Security"
+            texts="Decentralized Source Code Marketplace"
             className="!justify-center lg:!w-[70%] leading-[0.95em]  lg:!py-2"
           />
         </div>
         <H1
           delay={0.2}
-          className="mt-5 w-full lg:!w-[60%] justify-center !text-lg text-center"
-          title="Sourceblock emerges as a dual-component technology suite that merges the robust capabilities of AI-driven pricing optimization with the security and transparency of a blockchain-based marketplace."
+          className="mt-5 w-full lg:!w-[60%] justify-center !text-sm text-center"
+          title="Sourceblock is a decentralized marketplace for source code that offers a 
+          comprehensive range of services including cloud purchases, source code transactions, 
+          and API key acquisitions. The platform utilizes blockchain technology to ensure secure, 
+          transparent, and reliable transactions, making it an ideal solution for developers 
+          who prioritize privacy and security. With Sourceblock, developers can securely and seamlessly transact
+           and acquire the necessary tools and services for their software development needs."
           textColor="opacity"
         />
         <div className="w-full   py-5 flex justify-center items-center">
