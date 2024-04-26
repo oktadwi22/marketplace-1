@@ -97,7 +97,7 @@ export const LogoIpsum5 = () => {
 
 
 
-export const LogoIpsum7 = () => {
+export const LogoIpsum6 = () => {
   return (
     <Image 
     src="/Oxscans.png"
@@ -108,7 +108,7 @@ export const LogoIpsum7 = () => {
   );
 };
 
-export const LogoIpsum8 = () => {
+export const LogoIpsum7 = () => {
   return (
     <Image 
     src="/paal.png"
