@@ -95,10 +95,23 @@ export const LogoIpsum5 = () => {
   );
 };
 
-export const LogoIpsum6 = () => {
+
+
+export const LogoIpsum7 = () => {
   return (
     <Image 
-    src="/Solidproof.webp"
+    src="/Oxscans.png"
+      alt="dex"
+      width={200}
+      height={200}
+    />
+  );
+};
+
+export const LogoIpsum8 = () => {
+  return (
+    <Image 
+    src="/paal.png"
       alt="dex"
       width={200}
       height={200}
