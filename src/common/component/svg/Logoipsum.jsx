@@ -100,7 +100,7 @@ export const LogoIpsum5 = () => {
 export const LogoIpsum6 = () => {
   return (
     <Image 
-    src="/Oxscans.png"
+    src="/OxScans.png"
       alt="dex"
       width={200}
       height={200}
