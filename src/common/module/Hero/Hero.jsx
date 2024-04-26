@@ -13,17 +13,20 @@ import PreviewImage from "./components/PreviewImage";
 import SearchButton from "./components/SearchButton";
 import Link from "next/link";
 import ButtonViewAll from "@/common/component/element/ButtonViewAll";
+import SectionText from "@/common/component/element/SectionText";
 
 export default function Hero() {
   return (
     <div className="h-auto max-w-[1500px]  flex flex-col justify-start  w-full mt-20 overflow-hidden ">
       <div className="w-full max-lg:mt-20 px-5 lg:px-10 z-[9] flex-col items-center flex justify-center ">
+      
         <div className="w-full md:mt-24 mt-5 ">
           <HeroText
             texts="Decentralized Source Code Marketplace"
             className="!justify-center lg:!w-[70%] leading-[0.95em]  lg:!py-2"
           />
         </div>
+        
         <H1
           delay={0.2}
           className="mt-5 w-full lg:!w-[60%] justify-center !text-sm text-center"
@@ -35,6 +38,7 @@ export default function Hero() {
            and acquire the necessary tools and services for their software development needs."
           textColor="opacity"
         />
+        
         <div className="w-full   py-5 flex justify-center items-center">
           {/* <SearchButton /> */}
           <Link href="https://app.sourceblock.software" className=" flex justify-end">
@@ -45,9 +49,16 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      {/* <div className="w-full mt-5">
+      
+      <div className="w-full mt-5">
         <PreviewImage />
-      </div> */}
+      </div> 
+      <div className="flex justify-center items-center">
+      <SectionText
+            title="Our Partner"
+            className="!w-52 rounded-full !text-xl lg:!text-2xl !border-[#d2d0d4] !border-[0px] lg:!-mb-10 !justify-center mt-16   "
+          />
+        </div>
       <div className="w-full lg:mt-10  px-5 lg:px-10">
         <SliderTechLeader />
       </div>
