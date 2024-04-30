@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
+    "@material-tailwind/react": "^2.1.9",
     "@react-pdf/renderer": "^3.4.2",
     "@studio-freight/react-lenis": "^0.0.43",
     "clsx": "^2.1.0",

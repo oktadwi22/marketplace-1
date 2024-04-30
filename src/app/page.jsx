@@ -2,6 +2,7 @@ import Hero from "@/common/module/Hero/Hero";
 import Faq from "@/common/module/Faq/Faq";
 import AboutUs from "@/common/module/About Us/AboutUs";
 import Feature from "@/common/module/Feature/Feature";
+import News from "@/common/module/Faq/slidenews";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <Hero />
     <AboutUs />
     {/* <Project /> */}
+    <News/>
     <Faq />
     </div>
   );
