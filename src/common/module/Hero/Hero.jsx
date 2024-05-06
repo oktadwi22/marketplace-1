@@ -68,7 +68,7 @@ export default function Hero() {
           </Link>
           </div>
           <div className="px-2">
-          <Link href="https://etherscan.io/token/0x3eB85285EbC46780a8798149D271633210E61BAD" className=" flex justify-end">
+          <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xc85c81fae1b990adf81d281d914bc48827daf618?t=1715031692949" className=" flex justify-end">
             <ButtonViewAll
               title="Dextools"
               className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10  transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
