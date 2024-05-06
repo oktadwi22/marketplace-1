@@ -75,7 +75,7 @@ export default function News() {
        </Link>
       </div>
       <div className="w-full py-6 flex justify-center items-center">
-        <Link href="/MedianewsSourceblock.pdf" className=" flex justify-end">
+        <Link href="/medianewssourceblock.pdf" className=" flex justify-end">
           <ButtonViewAll
             title="MORE INFO"
             className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10 transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
