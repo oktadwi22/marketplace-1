@@ -34,6 +34,10 @@ export const InformationItem = [
         src: 'https://sourceblock.gitbook.io/sourceblock/about-sourceblock/technical-architecture',
     },
     {
+        title: 'Audit OxScans',
+        src: '/audit'
+    },
+    {
         title: 'Company Certificate',
         src: '/certificate'
     }

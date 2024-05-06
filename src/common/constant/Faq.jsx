@@ -143,3 +143,15 @@ export const Certificate = [
     link: '/1.pdf'
   },
 ]
+
+export const Audit = [ 
+  {
+    title: 'Security',
+    link: '/Security - My Account Panel - Namecheap.com.pdf'
+  },
+  {
+    title: 'Sourceblock',
+    link: '/sourceblock.pdf'
+  },
+]
+  

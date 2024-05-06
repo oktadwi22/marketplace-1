@@ -1,6 +1,8 @@
 "use client";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import Link from "next/link";
+import ButtonViewAll from "@/common/component/element/ButtonViewAll";
+import { FaMedium } from "react-icons/fa6";
 
 export default function News() {
   const partnerGroup = [
@@ -41,29 +43,44 @@ export default function News() {
     <div className="w-full relative">
         <div className="mx-auto mb-12 max-w-sm text-center">
             <h2 className="mb-6 text-center font-display text-2xl sm:text-4xl font-medium text-jacarta-700 dark:text-white">
-            ==  As Featured On ==
+            ==  Media News ==
             </h2>
           </div>
-      <div className="grid grid-cols-2 px-2 lg:grid-cols-5 gap-5  w-full justify-center items-center">
+      <div className="grid grid-cols-2 px-2 lg:grid-cols-6 gap-5  w-full justify-center items-center">
         {partnerGroup.map((item, index) => (
           <ComponentTransition
             
-            className="w-full"
+            className="w-full px-3"
             key={index}
           >
             <Link href={`${item.link}`}>
-              <div className="ring-1 ring-slate-100 rounded-2xl bg-slate-500" >
+              <div className="ring-1 ring-slate-100 rounded-2xl  bg-slate-500" >
                 <img
-                  className="w-full h-auto px-3 py-2 rounded-xl"
+                  className="w-64 lg:w-full lg:h-auto px-2 py-1 rounded-xl"
                   src={`/news/${item.logo}.png`}
-                  alt="Fusion"
-                  height={400}
-                  width={400}
+                  alt="news"
+                  height={200}
+                  width={200}
                 />
               </div>
               </Link>
+              
           </ComponentTransition>
+          
         ))}
+        <Link href={'https://sourceblock.medium.com'}>
+        <div className="ml-2 mr-3 lg:ml-0 rounded-2xl ring-1  ring-gray-50 py-2 lg:py-0 bg-black flex justify-center items-center">
+         <img src="https://seekvectorlogo.com/wp-content/uploads/2021/12/medium-vector-logo-2021.png" className="invert w-32"/>
+        </div>
+       </Link>
+      </div>
+      <div className="w-full py-6 flex justify-center items-center">
+        <Link href="/MedianewsSourceblock.pdf" className=" flex justify-end">
+          <ButtonViewAll
+            title="MORE INFO"
+            className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10 transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
+          />
+        </Link>
       </div>
     </div>
   );
