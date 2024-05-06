@@ -154,4 +154,11 @@ export const Audit = [
     link: '/sourceblock.pdf'
   },
 ]
-  
+
+
+export const medianews = [ 
+  {
+    title: 'Media News SourceBlock',
+    link: '/medianewssourceblock.pdf'
+  },
+]

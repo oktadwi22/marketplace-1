@@ -69,13 +69,13 @@ export default function News() {
           
         ))}
         <Link href={'https://sourceblock.medium.com'}>
-        <div className="ml-2 mr-3 lg:ml-0 rounded-2xl ring-1  ring-gray-50 py-2 lg:py-0 bg-black flex justify-center items-center">
+        <div className="ml-2 mr-3 lg:ml-0 rounded-2xl ring-1 ring-gray-50 lg:py-0 bg-black flex justify-center items-center">
          <img src="https://seekvectorlogo.com/wp-content/uploads/2021/12/medium-vector-logo-2021.png" className="invert w-32"/>
         </div>
        </Link>
       </div>
       <div className="w-full py-6 flex justify-center items-center">
-        <Link href="/medianewssourceblock.pdf" className=" flex justify-end">
+        <Link href="/medianews" className=" flex justify-end">
           <ButtonViewAll
             title="MORE INFO"
             className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10 transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
