@@ -35,10 +35,17 @@ export default function Hero() {
           and API key acquisitions. The platform utilizes blockchain technology to ensure secure, 
           transparent, and reliable transactions, making it an ideal solution for developers 
           who prioritize privacy and security. With Sourceblock, developers can securely and seamlessly transact
-           and acquire the necessary tools and services for their software development needs."
+          and acquire the necessary tools and services for their software development needs.
+          "
           textColor="opacity"
         />
-        
+         <H1
+          delay={0.2}
+          className="mt-5 w-full lg:!w-[60%] justify-center !text-sm text-center"
+          title="CA: 0x3eB85285EbC46780a8798149D271633210E61BAD
+          "
+          textColor="opacity"
+        />
         <div className="w-full   py-5 flex justify-center items-center">
           {/* <SearchButton /> */}
           <Link href="https://app.sourceblock.software" className=" flex justify-end">
