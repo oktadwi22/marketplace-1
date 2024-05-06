@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export const LogoIpsum = () => {
   return (
     <svg
@@ -54,6 +55,7 @@ export const LogoIpsum = () => {
 
 export const LogoIpsum2 = () => {
   return (
+    
     <Image
       src="/image.svg"
       alt="UNCX"
@@ -64,23 +66,29 @@ export const LogoIpsum2 = () => {
 };
 export const LogoIpsum3 = () => {
   return (
+    <Link href={'https://etherscan.io/token/0x3eB85285EbC46780a8798149D271633210E61BAD'}>
     <Image 
     src="/etherscan-logo-light.svg"
       alt="UNCX"
       width={160}
       height={160}
     />
+    </Link>
+    
   );
 };
 
 export const LogoIpsum4 = () => {
   return (
+    <Link href={'https://www.dextools.io/app/en/ether/pair-explorer/0xc85c81fae1b990adf81d281d914bc48827daf618?t=1715025765487'}>
     <Image 
     src="/dextools.svg"
       alt="dextools"
       width={50}
       height={50}
     />
+    </Link>
+    
   );
 };
 

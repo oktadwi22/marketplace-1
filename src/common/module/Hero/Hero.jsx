@@ -49,6 +49,26 @@ export default function Hero() {
           </Link>
         </div>
       </div>
+      <div className="w-full mb-5  py-2 flex  justify-center items-center">
+          {/* <SearchButton /> */}
+          <div className="px-2">
+          <Link href="https://app.uniswap.org/explore/tokens/ethereum/0x3eb85285ebc46780a8798149d271633210e61bad" className=" flex justify-end">
+            <ButtonViewAll
+              title="Buy Now"
+              className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10  transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
+            />
+            
+          </Link>
+          </div>
+          <div className="px-2">
+          <Link href="https://etherscan.io/token/0x3eB85285EbC46780a8798149D271633210E61BAD" className=" flex justify-end">
+            <ButtonViewAll
+              title="Dextools"
+              className="hover:!bg-[#EEEEEE] !w-auto !py-3 !px-10  transition-colors duration-300 overflow-hidden !bg-transparent ring-1 ring-slate-50 !text-[#EEEEEE]  "
+            />
+          </Link>
+          </div>
+        </div>
       
       <div className="w-full mt-5">
         <PreviewImage />
